@@ -29,7 +29,7 @@ import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 public class MainActivity extends YouTubeBaseActivity implements
 		InfoParsedListener {
 
-	public static final String INFO_URL = "http://api.naij.com/test.json";
+	private static final String INFO_URL = "http://api.naij.com/test.json";
 
 	private Button getInfoButton;
 
